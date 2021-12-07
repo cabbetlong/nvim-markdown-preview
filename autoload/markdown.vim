@@ -36,6 +36,7 @@ function! s:Pandoc.generate(theme, restart) abort
           \ '--metadata',
           \ 'pagetitle='.filename,
           \ '--include-in-header='.l:stylesheet,
+		  \ '-F', 'mermaid-filter',
           \ ],
           \ self
           \ )

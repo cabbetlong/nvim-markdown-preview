@@ -51,6 +51,12 @@ choco install pandoc
 
 For other systems please see the links in the description on how to install.
 
+#### Pandoc mermaid filter
+If you wanna preview yout mermaid diagrams, you need install mermaid filter for pandoc.
+```
+npm install --global mermaid-filter
+```
+
 ### live-server
 
 Assuming you have [Node.js](https://nodejs.org/en/download/) installed:
